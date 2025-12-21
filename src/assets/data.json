@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "productName": "New Arrival Formal Shirt",
+    "category": "new",
+    "price": 45,
+    "img": "https://example.com/images/new-formal-shirt.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "Best Seller Cotton Shirt",
+    "category": "best sellers",
+    "price": 40,
+    "img": "https://example.com/images/best-seller-shirt.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "Classic Formal Shirt",
+    "category": "shirts",
+    "price": 42,
+    "img": "https://example.com/images/classic-shirt.jpg"
+  },
+  {
+    "id": 4,
+    "productName": "Premium Polo Shirt",
+    "category": "polo shirts",
+    "price": 35,
+    "img": "https://example.com/images/polo-shirt.jpg"
+  },
+  {
+    "id": 5,
+    "productName": "Casual Summer Short",
+    "category": "short",
+    "price": 25,
+    "img": "https://example.com/images/summer-short.jpg"
+  },
+  {
+    "id": 6,
+    "productName": "Men's Formal Suit",
+    "category": "suit",
+    "price": 120,
+    "img": "https://example.com/images/formal-suit.jpg"
+  },
+  {
+    "id": 7,
+    "productName": "Graphic T-Shirt",
+    "category": "t-shirts",
+    "price": 22,
+    "img": "https://example.com/images/graphic-tshirt.jpg"
+  },
+  {
+    "id": 8,
+    "productName": "Slim Fit Blue Jeans",
+    "category": "jeans",
+    "price": 50,
+    "img": "https://example.com/images/blue-jeans.jpg"
+  },
+  {
+    "id": 9,
+    "productName": "Winter Denim Jacket",
+    "category": "jackets",
+    "price": 70,
+    "img": "https://example.com/images/denim-jacket.jpg"
+  },
+  {
+    "id": 10,
+    "productName": "Baggy Streetwear Jeans",
+    "category": "baggy",
+    "price": 55,
+    "img": "https://example.com/images/baggy-jeans.jpg"
+  },
+  {
+    "id": 11,
+    "productName": "Traditional Cotton Panjabi",
+    "category": "panjabi",
+    "price": 48,
+    "img": "https://example.com/images/cotton-panjabi.jpg"
+  },
+  {
+    "id": 12,
+    "productName": "Formal Office Pants",
+    "category": "pants",
+    "price": 44,
+    "img": "https://example.com/images/formal-pants.jpg"
+  },
+  {
+    "id": 13,
+    "productName": "New Trend Polo Shirt",
+    "category": "new",
+    "price": 38,
+    "img": "https://example.com/images/new-polo-shirt.jpg"
+  },
+  {
+    "id": 14,
+    "productName": "Best Seller Black T-Shirt",
+    "category": "best sellers",
+    "price": 24,
+    "img": "https://example.com/images/best-seller-tshirt.jpg"
+  },
+  {
+    "id": 15,
+    "productName": "Casual Checked Shirt",
+    "category": "shirts",
+    "price": 36,
+    "img": "https://example.com/images/checked-shirt.jpg"
+  },
+  {
+    "id": 16,
+    "productName": "Sports Polo Shirt",
+    "category": "polo shirts",
+    "price": 34,
+    "img": "https://example.com/images/sports-polo.jpg"
+  },
+  {
+    "id": 17,
+    "productName": "Cargo Short",
+    "category": "short",
+    "price": 28,
+    "img": "https://example.com/images/cargo-short.jpg"
+  },
+  {
+    "id": 18,
+    "productName": "Casual Two-Piece Suit",
+    "category": "suit",
+    "price": 110,
+    "img": "https://example.com/images/casual-suit.jpg"
+  },
+  {
+    "id": 19,
+    "productName": "Relaxed Fit Jeans",
+    "category": "jeans",
+    "price": 52,
+    "img": "https://example.com/images/relaxed-jeans.jpg"
+  },
+  {
+    "id": 20,
+    "productName": "Winter Jacket",
+    "category": "jackets",
+    "price": 75,
+    "img": "https://example.com/images/winter-jacket.jpg"
+  },
+  {
+    "id": 21,
+    "productName": "New Stylish T-Shirt",
+    "category": "new",
+    "price": 27,
+    "img": "https://example.com/images/new-stylish-tshirt.jpg"
+  },
+  {
+    "id": 22,
+    "productName": "Best Seller Polo Shirt",
+    "category": "best sellers",
+    "price": 36,
+    "img": "https://example.com/images/best-seller-polo.jpg"
+  },
+  {
+    "id": 23,
+    "productName": "Formal Blue Shirt",
+    "category": "shirts",
+    "price": 44,
+    "img": "https://example.com/images/formal-blue-shirt.jpg"
+  },
+  {
+    "id": 24,
+    "productName": "Striped Polo Shirt",
+    "category": "polo shirts",
+    "price": 33,
+    "img": "https://example.com/images/striped-polo.jpg"
+  },
+  {
+    "id": 25,
+    "productName": "Denim Shorts",
+    "category": "short",
+    "price": 30,
+    "img": "https://example.com/images/denim-shorts.jpg"
+  },
+  {
+    "id": 26,
+    "productName": "Black Formal Suit",
+    "category": "suit",
+    "price": 125,
+    "img": "https://example.com/images/black-formal-suit.jpg"
+  },
+  {
+    "id": 27,
+    "productName": "Printed T-Shirt",
+    "category": "t-shirts",
+    "price": 20,
+    "img": "https://example.com/images/printed-tshirt.jpg"
+  },
+  {
+    "id": 28,
+    "productName": "Ripped Jeans",
+    "category": "jeans",
+    "price": 58,
+    "img": "https://example.com/images/ripped-jeans.jpg"
+  },
+  {
+    "id": 29,
+    "productName": "Leather Jacket",
+    "category": "jackets",
+    "price": 90,
+    "img": "https://example.com/images/leather-jacket.jpg"
+  },
+  {
+    "id": 30,
+    "productName": "Baggy Grey Jeans",
+    "category": "baggy",
+    "price": 55,
+    "img": "https://example.com/images/baggy-grey-jeans.jpg"
+  },
+  {
+    "id": 31,
+    "productName": "Festive Panjabi",
+    "category": "panjabi",
+    "price": 50,
+    "img": "https://example.com/images/festive-panjabi.jpg"
+  },
+  {
+    "id": 32,
+    "productName": "Chino Pants",
+    "category": "pants",
+    "price": 45,
+    "img": "https://example.com/images/chino-pants.jpg"
+  },
+  {
+    "id": 33,
+    "productName": "New Casual Polo Shirt",
+    "category": "new",
+    "price": 37,
+    "img": "https://example.com/images/new-casual-polo.jpg"
+  },
+  {
+    "id": 34,
+    "productName": "Best Seller White Shirt",
+    "category": "best sellers",
+    "price": 42,
+    "img": "https://example.com/images/best-seller-white-shirt.jpg"
+  },
+  {
+    "id": 35,
+    "productName": "Checkered Casual Shirt",
+    "category": "shirts",
+    "price": 38,
+    "img": "https://example.com/images/checkered-shirt.jpg"
+  },
+  {
+    "id": 36,
+    "productName": "Summer Polo Shirt",
+    "category": "polo shirts",
+    "price": 32,
+    "img": "https://example.com/images/summer-polo.jpg"
+  },
+  {
+    "id": 37,
+    "productName": "Khaki Shorts",
+    "category": "short",
+    "price": 27,
+    "img": "https://example.com/images/khaki-shorts.jpg"
+  },
+  {
+    "id": 38,
+    "productName": "Two-Piece Casual Suit",
+    "category": "suit",
+    "price": 115,
+    "img": "https://example.com/images/casual-two-piece-suit.jpg"
+  },
+  {
+    "id": 39,
+    "productName": "Striped T-Shirt",
+    "category": "t-shirts",
+    "price": 22,
+    "img": "https://example.com/images/striped-tshirt.jpg"
+  },
+  {
+    "id": 40,
+    "productName": "Black Denim Jacket",
+    "category": "jackets",
+    "price": 85,
+    "img": "https://example.com/images/black-denim-jacket.jpg"
+  }
+
+
+]
+
