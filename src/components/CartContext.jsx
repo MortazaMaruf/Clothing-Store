@@ -4,7 +4,7 @@ const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
-
+//add prodcuts
   const addToCart = (product) => {
     setCartItems(prev => {
       const exists = prev.find(item => item.id === product.id);
@@ -20,7 +20,7 @@ export const CartProvider = ({ children }) => {
       return [...prev, { ...product, qty: 1 }];
     });
   };
-
+      //increase prodcut
   const increaseQty = (id) => {
     setCartItems(prev =>
       prev.map(item =>
@@ -30,7 +30,7 @@ export const CartProvider = ({ children }) => {
       )
     );
   };
-
+//decrease product
   const decreaseQty = (id) => {
     setCartItems(prev =>
       prev.map(item =>
@@ -40,7 +40,7 @@ export const CartProvider = ({ children }) => {
       )
     );
   };
-
+//remove product
   const removeFromCart = (id) => {
     setCartItems(prev => prev.filter(item => item.id !== id));
   };

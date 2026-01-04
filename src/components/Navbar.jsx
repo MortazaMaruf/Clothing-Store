@@ -1,5 +1,5 @@
 import Logo from '../Images/logo.png'
-import { Link } from "react-router-dom";
+import { Link ,NavLink} from "react-router-dom";
 import { MdFavoriteBorder } from "react-icons/md";
 import { LuShoppingCart } from "react-icons/lu";
 import { CiUser } from "react-icons/ci";
@@ -17,6 +17,7 @@ const Navbar = () => {
   const relaodPage = ()=> {
     window.location.href="/";
   }
+  const isActive = ({isActive}) => isActive && " text-gray-400 "
   return (
 
     <div className='border-b-2 border-b-black fixed w-screen z-100 bg-white'>
@@ -29,9 +30,9 @@ const Navbar = () => {
           />
 
           <nav className='flex gap-10 font-semibold text-lg'>
-            <Link to="/">Home</Link>
-            <Link to="/collections">Collections</Link>
-            <Link to="/new">New</Link>
+            <NavLink to="/" className={isActive}>Home</NavLink>
+            <NavLink to="/collections" className={isActive}>Collections</NavLink>
+            <NavLink to="/new" className={isActive}>New</NavLink>
           </nav>
 
           <Search />

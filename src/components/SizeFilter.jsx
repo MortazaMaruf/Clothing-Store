@@ -1,32 +1,4 @@
-// import React from 'react'
-// import Button from './Button';
 
-// const SizeFilter = () => {
-//    const buttonFilter = ["xs","s","m","l","xl","2xl"]; 
-//    const availableFilter = ["Availability","Category","Colors","Price Range","Collections","Tags","Ratings"]
-//   return (
-//     <div className='pt-[15vh] fixed top-0'>
-//         <h1 className='mb-10 text-lg font-semibold capitalize'>Filters</h1>
-//      <div >
-       
-//         <h1 className=' text-lg font-semibold capitalize'>Size</h1>
-//         <div className='  flex gap-2 py-1 '>
-//        {buttonFilter.map((btn,i) => (
-//         <Button text={btn}/>
-//       ))}
-//     </div>
-//     <div className='mt-20 flex flex-col gap-5'>
-//       {availableFilter.map((text) => (
-
-//       <h1 className='text-xl font-semibold border-b-1 border-gray-200 border-dashed pb-3'>{text}</h1>
-//       ))}
-//     </div>
-//      </div>
-//     </div>
-//   )
-// }
-
-// export default SizeFilter
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
