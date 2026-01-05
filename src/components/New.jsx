@@ -56,11 +56,21 @@ const New = () => {
               onChange={handleCategoryChange}
             />
 
-            <div className="grid grid-cols-5 gap-10 mt-[15vh]">
+            {/* <div className="grid grid-cols-5 gap-10 mt-[15vh]">
               {filteredProducts.map((item) => (
                 <Card key={item.id} item={item} />
               ))}
-            </div>
+            </div> */}
+            <div className="grid gap-10 mt-[15vh] 
+                grid-cols-1 
+                sm:grid-cols-2 
+                md:grid-cols-3 
+                lg:grid-cols-4 
+                xl:grid-cols-5">
+  {filteredProducts.map((item) => (
+    <Card key={item.id} item={item} />
+  ))}
+</div>
           </div>
         </div>
 

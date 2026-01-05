@@ -56,11 +56,16 @@ const Collections = () => {
               onChange={handleCategoryChange}
             />
 
-            <div className="grid grid-cols-4 gap-10 mt-[15vh]">
+            {/* <div className="grid grid-cols-4 gap-10 mt-[15vh]">
               {filteredProducts.map((item) => (
                 <Card key={item.id} item={item} />
               ))}
-            </div>
+            </div> */}
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5  mt-[15vh]">
+  {filteredProducts.map((item) => (
+    <Card key={item.id} item={item} />
+  ))}
+</div>
           </div>
         </div>
 

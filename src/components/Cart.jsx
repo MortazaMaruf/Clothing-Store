@@ -1,9 +1,10 @@
-import { useCart } from "./CartContext";
-import Navbar from './Navbar';
-import { MdDelete } from "react-icons/md";
-import { GoPlus } from "react-icons/go";
-import { FiMinus } from "react-icons/fi";
-import Button from './Button';
+
+import { useCart } from "./CartContext"
+import Navbar from './Navbar'
+import { MdDelete } from "react-icons/md"
+import { GoPlus } from "react-icons/go"
+import { FiMinus } from "react-icons/fi"
+import Button from './Button'
 
 const Cart = () => {
   const {
@@ -11,77 +12,94 @@ const Cart = () => {
     removeFromCart,
     increaseQty,
     decreaseQty
-  } = useCart();
+  } = useCart()
 
   const subtotal = cartItems.reduce(
     (total, item) => total + item.price * item.qty,
     0
-  );
+  )
 
   return (
     <div>
       <Navbar />
 
-      <div className="w-11/12 mx-auto pt-20">
-        <div className="flex items-center justify-center flex-col">
-          <h1 className="text-5xl font-bold uppercase my-[5vh]">
+      <div className="w-11/12 mx-auto pt-24">
+        
+        {/* Title */}
+        <div className="text-center mb-16">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase">
             Your Cart
           </h1>
 
           {cartItems.length === 0 && (
-            <span className="text-[10vh] mt-[10vh] text-gray-200">
-              Your Cart is empty
-            </span>
+            <p className="mt-20 text-gray-400 text-xl">
+              Your cart is empty
+            </p>
           )}
         </div>
 
+        {/* Cart Items */}
         {cartItems.map(item => (
-          <div key={item.id} className="flex gap-5 mb-6 border-b pb-4">
+          <div
+            key={item.id}
+            className="
+              flex flex-col sm:flex-row
+              gap-5
+              border-b pb-6 mb-6
+            "
+          >
+            {/* Image */}
             <img
               src={item.img}
-              className="w-[8vw] h-[8vw] object-cover"
+              alt=""
+              className="
+                w-full sm:w-[120px]
+                h-[200px] sm:h-[120px]
+                object-cover
+              "
             />
 
-            <div className="flex justify-between w-full">
+            {/* Info */}
+            <div className="flex flex-col sm:flex-row justify-between w-full gap-6">
+              
+              {/* Title */}
               <div>
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-lg sm:text-xl font-semibold">
                   {item.productName}
                 </h2>
-                <h2 className="text-gray-300 mt-5 text-lg">
+                <p className="text-gray-400 mt-2">
                   {item.style}
-                </h2>
+                </p>
               </div>
 
               {/* Quantity */}
               <div className="flex items-center gap-3">
                 <FiMinus
                   onClick={() => decreaseQty(item.id)}
-                  className="text-xl bg-gray-400 w-10 h-8 cursor-pointer"
+                  className="cursor-pointer bg-gray-300 w-9 h-8 p-1"
                 />
 
-                <input
-                  type="number"
-                  value={item.qty}
-                  readOnly
-                  className="border outline-none text-center w-10 h-8"
-                />
+                <span className="w-8 text-center">
+                  {item.qty}
+                </span>
 
                 <GoPlus
                   onClick={() => increaseQty(item.id)}
-                  className="text-xl bg-gray-400 w-10 h-8 cursor-pointer"
+                  className="cursor-pointer bg-gray-300 w-9 h-8 p-1"
                 />
               </div>
 
-              {/* Price auto update */}
-              <p className="font-semibold">
+              {/* Price */}
+              <p className="font-semibold text-lg">
                 ${(item.price * item.qty).toFixed(2)}
               </p>
 
+              {/* Delete */}
               <button
                 onClick={() => removeFromCart(item.id)}
                 className="hover:text-red-500"
               >
-                <MdDelete className="cursor-pointer text-2xl" />
+                <MdDelete className="text-2xl" />
               </button>
             </div>
           </div>
@@ -89,22 +107,24 @@ const Cart = () => {
 
         {/* Subtotal */}
         {cartItems.length > 0 && (
-          <div className="flex items-end flex-col mt-10">
-            <div className="w-[25vw] border p-6">
+          <div className="flex flex-col items-end mt-12 gap-8">
+            <div className="
+              w-full sm:w-[60%] lg:w-[25vw]
+              border p-6
+            ">
               <div className="flex justify-between text-xl font-bold">
                 <span>Subtotal</span>
                 <span>${subtotal.toFixed(2)}</span>
               </div>
             </div>
-              <div className="mt-10">
-          <Button text={"CheckOut"}/>
-        </div>
+
+            <Button text="Checkout" />
           </div>
         )}
-        
+
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart

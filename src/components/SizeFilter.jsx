@@ -61,39 +61,3 @@ export default SizeFilter;
 
 
 
-// import React from 'react';
-// import Button from './Button';
-
-// const SizeFilter = () => {
-//   const buttonFilter = ["xs","s","m","l","xl","2xl"]; 
-//   const availableFilter = [
-//     "Availability","Category","Colors","Price Range",
-//     "Collections","Tags","Ratings"
-//   ];
-
-//   return (
-//     <div className="sticky top-[25vh] pt-5">
-//       <h1 className="mb-6 text-2xl font-semibold capitalize">Filters</h1>
-
-//       <h1 className="text-xl font-semibold capitalize pb-2">Size</h1>
-//       <div className="flex gap-3 py-1 flex-wrap">
-//         {buttonFilter.map((btn, i) => (
-//           <Button key={i} text={btn} />
-//         ))}
-//       </div>
-
-//       <div className="mt-10 flex flex-col gap-5">
-//         {availableFilter.map((text, i) => (
-//           <h1
-//             key={i}
-//             className="text-xl font-semibold border-b border-gray-200 border-dashed pb-3"
-//           >
-//             {text}
-//           </h1>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default SizeFilter;
