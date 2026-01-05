@@ -61,7 +61,7 @@ const New = () => {
                 <Card key={item.id} item={item} />
               ))}
             </div> */}
-            <div className="grid gap-10 mt-[15vh] 
+            <div className="grid gap-5 mt-[15vh] 
                 grid-cols-1 
                 sm:grid-cols-2 
                 md:grid-cols-3 

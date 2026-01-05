@@ -32,7 +32,7 @@ const Home = () => {
           </div>
 
           {/* Cards */}
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 my-10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 my-10">
             {data.slice(0, 10).map((item) => (
               <Card key={item.id} item={item} />
             ))}
