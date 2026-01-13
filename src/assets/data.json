@@ -4,282 +4,141 @@
     "productName": "New Arrival Formal Shirt",
     "category": "new",
     "price": 45,
-    "img": "https://example.com/images/new-formal-shirt.jpg"
+    "img": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9ybWFsJTIwc2hpcnR8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 2,
     "productName": "Best Seller Cotton Shirt",
     "category": "best sellers",
     "price": 40,
-    "img": "https://example.com/images/best-seller-shirt.jpg"
+    "img": "https://images.unsplash.com/photo-1605547769114-79f914c1697d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y290dG9uJTIwc2hpcnRzfGVufDB8fDB8fHww"
   },
   {
     "id": 3,
     "productName": "Classic Formal Shirt",
     "category": "shirts",
     "price": 42,
-    "img": "https://example.com/images/classic-shirt.jpg"
+    "img": "https://images.unsplash.com/photo-1611619668823-13e82692eddc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvcm1hbCUyMHNoaXJ0fGVufDB8fDB8fHww"
   },
   {
     "id": 4,
     "productName": "Premium Polo Shirt",
     "category": "polo shirts",
     "price": 35,
-    "img": "https://example.com/images/polo-shirt.jpg"
+    "img": "https://plus.unsplash.com/premium_vector-1758836455571-6be35fd193af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHJlbWl1bSUyMFBvbG8lMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 5,
     "productName": "Casual Summer Short",
     "category": "short",
     "price": 25,
-    "img": "https://example.com/images/summer-short.jpg"
+    "img": "https://plus.unsplash.com/premium_photo-1710459650235-1cf542dc189f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHN1bW1lciUyMHNob3J0fGVufDB8fDB8fHww"
   },
   {
     "id": 6,
     "productName": "Men's Formal Suit",
     "category": "suit",
     "price": 120,
-    "img": "https://example.com/images/formal-suit.jpg"
+    "img": "https://plus.unsplash.com/premium_photo-1674777843441-04dd6cd672ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWVuJ3MlMjBGb3JtYWwlMjBTdWl0fGVufDB8fDB8fHww"
   },
   {
     "id": 7,
     "productName": "Graphic T-Shirt",
     "category": "t-shirts",
     "price": 22,
-    "img": "https://example.com/images/graphic-tshirt.jpg"
+    "img": "https://images.unsplash.com/photo-1763403063428-10184adc7be3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R3JhcGhpYyUyMFQtU2hpcnR8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 8,
     "productName": "Slim Fit Blue Jeans",
     "category": "jeans",
     "price": 50,
-    "img": "https://example.com/images/blue-jeans.jpg"
+    "img": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2xpbSUyMEZpdCUyMEJsdWUlMjBKZWFuc3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 9,
     "productName": "Winter Denim Jacket",
     "category": "jackets",
     "price": 70,
-    "img": "https://example.com/images/denim-jacket.jpg"
+    "img": "https://images.unsplash.com/photo-1603919362751-9a77a26b2460?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8V2ludGVyJTIwRGVuaW0lMjBKYWNrZXR8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 10,
     "productName": "Baggy Streetwear Jeans",
     "category": "baggy",
     "price": 55,
-    "img": "https://example.com/images/baggy-jeans.jpg"
+    "img": "https://images.unsplash.com/photo-1767899390509-892ad3978dfa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFnZ3klMjBTdHJlZXR3ZWFyJTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 11,
     "productName": "Traditional Cotton Panjabi",
     "category": "panjabi",
     "price": 48,
-    "img": "https://example.com/images/cotton-panjabi.jpg"
+    "img": "https://toptenmartltd.com/wp-content/uploads/2024/06/Panjabi-5.jpg"
   },
   {
     "id": 12,
     "productName": "Formal Office Pants",
     "category": "pants",
     "price": 44,
-    "img": "https://example.com/images/formal-pants.jpg"
+    "img": "https://images.unsplash.com/photo-1760616172899-0681b97a2de3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Rm9ybWFsJTIwT2ZmaWNlJTIwUGFudHN8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 13,
     "productName": "New Trend Polo Shirt",
     "category": "new",
     "price": 38,
-    "img": "https://example.com/images/new-polo-shirt.jpg"
+    "img": "https://plus.unsplash.com/premium_photo-1664874603230-db4bddac79db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TmV3JTIwVHJlbmQlMjBQb2xvJTIwU2hpcnR8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 14,
     "productName": "Best Seller Black T-Shirt",
     "category": "best sellers",
     "price": 24,
-    "img": "https://example.com/images/best-seller-tshirt.jpg"
+    "img": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVzdCUyMFNlbGxlciUyMEJsYWNrJTIwVC1TaGlydHxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 15,
     "productName": "Casual Checked Shirt",
     "category": "shirts",
     "price": 36,
-    "img": "https://example.com/images/checked-shirt.jpg"
+    "img": "https://images.unsplash.com/photo-1654000643247-31438b0dfb6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fENhc3VhbCUyMENoZWNrZWQlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 16,
     "productName": "Sports Polo Shirt",
     "category": "polo shirts",
     "price": 34,
-    "img": "https://example.com/images/sports-polo.jpg"
+    "img": "https://images.unsplash.com/photo-1765958516447-79fa73ef4fa9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3BvcnRzJTIwUG9sbyUyMFNoaXJ0fGVufDB8fDB8fHww"
   },
   {
     "id": 17,
     "productName": "Cargo Short",
     "category": "short",
     "price": 28,
-    "img": "https://example.com/images/cargo-short.jpg"
+    "img": "https://images.unsplash.com/photo-1696889450800-e94ec7a32206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENhcmdvJTIwU2hvcnQlMjBwYW50c3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 18,
     "productName": "Casual Two-Piece Suit",
     "category": "suit",
     "price": 110,
-    "img": "https://example.com/images/casual-suit.jpg"
+    "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FzdWFsJTIwVHdvLVBpZWNlJTIwU3VpdHxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 19,
     "productName": "Relaxed Fit Jeans",
     "category": "jeans",
     "price": 52,
-    "img": "https://example.com/images/relaxed-jeans.jpg"
+    "img": "https://images.unsplash.com/photo-1685435690165-97ba05cb8c1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFJlbGF4ZWQlMjBGaXQlMjBKZWFuc3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 20,
     "productName": "Winter Jacket",
     "category": "jackets",
     "price": 75,
-    "img": "https://example.com/images/winter-jacket.jpg"
-  },
-  {
-    "id": 21,
-    "productName": "New Stylish T-Shirt",
-    "category": "new",
-    "price": 27,
-    "img": "https://example.com/images/new-stylish-tshirt.jpg"
-  },
-  {
-    "id": 22,
-    "productName": "Best Seller Polo Shirt",
-    "category": "best sellers",
-    "price": 36,
-    "img": "https://example.com/images/best-seller-polo.jpg"
-  },
-  {
-    "id": 23,
-    "productName": "Formal Blue Shirt",
-    "category": "shirts",
-    "price": 44,
-    "img": "https://example.com/images/formal-blue-shirt.jpg"
-  },
-  {
-    "id": 24,
-    "productName": "Striped Polo Shirt",
-    "category": "polo shirts",
-    "price": 33,
-    "img": "https://example.com/images/striped-polo.jpg"
-  },
-  {
-    "id": 25,
-    "productName": "Denim Shorts",
-    "category": "short",
-    "price": 30,
-    "img": "https://example.com/images/denim-shorts.jpg"
-  },
-  {
-    "id": 26,
-    "productName": "Black Formal Suit",
-    "category": "suit",
-    "price": 125,
-    "img": "https://example.com/images/black-formal-suit.jpg"
-  },
-  {
-    "id": 27,
-    "productName": "Printed T-Shirt",
-    "category": "t-shirts",
-    "price": 20,
-    "img": "https://example.com/images/printed-tshirt.jpg"
-  },
-  {
-    "id": 28,
-    "productName": "Ripped Jeans",
-    "category": "jeans",
-    "price": 58,
-    "img": "https://example.com/images/ripped-jeans.jpg"
-  },
-  {
-    "id": 29,
-    "productName": "Leather Jacket",
-    "category": "jackets",
-    "price": 90,
-    "img": "https://example.com/images/leather-jacket.jpg"
-  },
-  {
-    "id": 30,
-    "productName": "Baggy Grey Jeans",
-    "category": "baggy",
-    "price": 55,
-    "img": "https://example.com/images/baggy-grey-jeans.jpg"
-  },
-  {
-    "id": 31,
-    "productName": "Festive Panjabi",
-    "category": "panjabi",
-    "price": 50,
-    "img": "https://example.com/images/festive-panjabi.jpg"
-  },
-  {
-    "id": 32,
-    "productName": "Chino Pants",
-    "category": "pants",
-    "price": 45,
-    "img": "https://example.com/images/chino-pants.jpg"
-  },
-  {
-    "id": 33,
-    "productName": "New Casual Polo Shirt",
-    "category": "new",
-    "price": 37,
-    "img": "https://example.com/images/new-casual-polo.jpg"
-  },
-  {
-    "id": 34,
-    "productName": "Best Seller White Shirt",
-    "category": "best sellers",
-    "price": 42,
-    "img": "https://example.com/images/best-seller-white-shirt.jpg"
-  },
-  {
-    "id": 35,
-    "productName": "Checkered Casual Shirt",
-    "category": "shirts",
-    "price": 38,
-    "img": "https://example.com/images/checkered-shirt.jpg"
-  },
-  {
-    "id": 36,
-    "productName": "Summer Polo Shirt",
-    "category": "polo shirts",
-    "price": 32,
-    "img": "https://example.com/images/summer-polo.jpg"
-  },
-  {
-    "id": 37,
-    "productName": "Khaki Shorts",
-    "category": "short",
-    "price": 27,
-    "img": "https://example.com/images/khaki-shorts.jpg"
-  },
-  {
-    "id": 38,
-    "productName": "Two-Piece Casual Suit",
-    "category": "suit",
-    "price": 115,
-    "img": "https://example.com/images/casual-two-piece-suit.jpg"
-  },
-  {
-    "id": 39,
-    "productName": "Striped T-Shirt",
-    "category": "t-shirts",
-    "price": 22,
-    "img": "https://example.com/images/striped-tshirt.jpg"
-  },
-  {
-    "id": 40,
-    "productName": "Black Denim Jacket",
-    "category": "jackets",
-    "price": 85,
-    "img": "https://example.com/images/black-denim-jacket.jpg"
+    "img": "https://images.unsplash.com/photo-1613422448762-c13f05ae758a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V2ludGVyJTIwSmFja2V0fGVufDB8fDB8fHww"
   }
-
 
 ]
 
