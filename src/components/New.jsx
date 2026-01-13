@@ -56,7 +56,11 @@ const New = () => {
               onChange={handleCategoryChange}
             />
 
+<<<<<<< HEAD
           
+=======
+            
+>>>>>>> a4d7ac9e401c963815fc96abe4b39c34e5c623b1
             <div className="grid gap-5 mt-[15vh] 
                 grid-cols-1 
                 sm:grid-cols-2 

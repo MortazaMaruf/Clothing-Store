@@ -56,7 +56,11 @@ const Collections = () => {
               onChange={handleCategoryChange}
             />
 
+<<<<<<< HEAD
            
+=======
+            
+>>>>>>> a4d7ac9e401c963815fc96abe4b39c34e5c623b1
             <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5  mt-[15vh]">
   {filteredProducts.map((item) => (
     <Card key={item.id} item={item} />
